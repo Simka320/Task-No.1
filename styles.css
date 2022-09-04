@@ -1,0 +1,412 @@
+body{
+    width: 100%;
+    height: 100%;
+    
+    font-family: 'Bebas Neue', cursive;
+    padding: 1rem;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    
+}
+.navbuttons{
+    display: none;
+}
+.logo{
+    width: 40%;
+}
+.burger{
+     
+    width: 1.6rem;
+    margin-left:0.7rem;
+    
+    margin-right: 1.2rem;
+}
+header{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("graphic.png");
+    background-size: cover;
+    background-position: 7rem;
+    background-repeat: no-repeat;
+    background-position-y: -1rem;
+    padding-top: 3rem;
+
+}
+.launchingsoon{
+    font-size: medium;
+    color: violet;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    margin: 0;
+    
+
+    
+}
+
+.title{
+    font-size: 40px;
+    width: 60%;
+    margin-bottom: 0.7rem;
+    font-style: bold;
+    
+
+
+}
+
+.cyclope{
+   width: 90%;
+   height: 90%;
+
+    
+}
+.introduction{
+    width: 55%;
+    margin: 0;
+    word-wrap: break-word;
+    padding-bottom: 1rem;
+}
+
+.signup{
+    font-size: 1.5rem; 
+    color: black;
+    display:inline-block;
+    border-style: solid;
+    border-image: fill;
+    border-width: 3px;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 0.4em 1em;
+    text-shadow: 0 0 0.8em white, 0 0 0.1em currentColor;
+    
+}
+
+
+.signup:hover{
+    background-color: hsl(297°, 82%, 56%);
+    color: rgb(230, 22, 22);
+    text-shadow: none;
+}
+.promotion{
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+    background-image: url("background.png");
+    background-position: 70%;
+    margin-left: -1rem;
+    margin-top: 1rem;
+    height: 33vh;
+}
+.headline{
+    font-size: xx-large;
+    font-style: none;
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+  
+    
+}
+.headline, .promotiontext{
+    padding-left: 1rem;
+    margin: 0;
+    width: 70%;
+}
+.partners{
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   padding-right: 10rem;
+   
+   
+}
+.promotiontext > span{
+    
+     text-decoration: underline;
+    
+}
+.partners > img{
+    padding-right: 0.9rem;
+    width: 30%;
+    height: 30%;
+    padding-top: 1rem;
+
+}
+.bonus{
+   display: none; 
+}
+.second_article{
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+    margin-left: -1rem;
+    margin-top: 1rem;
+    height: 33vh;
+}
+.exposition{
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 6rem; 
+    width: auto;
+    
+}
+.first_nft{
+    padding: 0;
+    width: 10rem;
+    height: 17rem;
+   background-color: rgb(216, 211, 211); 
+   background-image: url(ntf-1.png);
+   background-repeat: no-repeat;
+    border-radius: 5px;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.about{
+    display: flex;
+    font-size: 14px;
+   flex-direction: column;
+   width: 100%;
+   height: 39%;
+
+}
+.about > p{
+    margin: 0;
+}
+.first_row, .second_row, .third_row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.ethprice > img {
+    width: 15%;
+    height: 30%;
+    padding: 0;
+    padding-right: 5px;
+   
+    
+    
+}
+.ethprice{
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.launchingsoon_bottom{
+    background-image: url(bottom_image.png) ;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  
+    background-size: 40%;
+    background-position: 12rem;
+    background-repeat: no-repeat;
+    background-position-y: 2rem;
+    padding-top: 3rem;
+
+}
+
+.bottom_logo{
+padding-top: 5rem;
+font-size: 16px;
+}
+.socialmedialogo > img{
+padding: 0.2rem;
+}
+.listoflists{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-right: 10rem;
+}
+.copyright{
+    font-size: 12px;
+    color: grey;
+}
+.second_row > p{
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.first_row, .third_row{
+    font-size: 12px;
+}
+.ethprice > p{
+    margin: 0;
+}
+.second_nft{
+    padding: 0;
+    width: 10rem;
+    height: 17rem;
+   background-color: rgb(216, 211, 211); 
+   background-image: url(nft-2.png);
+   background-repeat: no-repeat;
+    border-radius: 5px;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.third_nft{
+    padding: 0;
+    width: 10rem;
+    height: 17rem;
+   background-color: rgb(216, 211, 211); 
+   background-image: url(ntf-3.png);
+   background-repeat: no-repeat;
+    border-radius: 5px;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.fourth_nft{
+    padding: 0;
+    width: 10rem;
+    height: 17rem;
+   background-color: rgb(216, 211, 211); 
+   background-image: url(ntf-4.png);
+   background-repeat: no-repeat;
+    border-radius: 5px;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+   
+}
+.orange{
+    color: orange;
+
+}
+.grey{
+    color: grey;
+}
+.white{
+    color: white;
+}
+
+@media all and (min-width: 600px) {
+    body{
+        padding-left: 4rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90vw;
+        height: 90vh;
+    }
+ .bottom_logo{
+    width: 50%;
+ }
+ .listoflists{
+    width: 50%;
+ }
+ .bottom_wider{
+    display: flex;
+    align-items: flex-end;
+ }
+ .logo{
+    width: 15%;
+ }
+ .burger{
+    display: none;
+ }
+ 
+ nav > a{
+    padding:3rem;
+    text-decoration: none;
+   
+ }
+ .last{
+    color: red;
+ }
+ .navbuttons{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+ }
+ header{
+    font-size: 20px;
+    width: 100%;
+    padding-top: 20vh;
+    background-size: 50%;
+    background-position-x: 40rem;
+    background-position-y: 4rem;
+    padding-bottom: 0;
+    height: 60%;
+ }
+ .textwidewrap{
+    width: 60%;
+    font-size: 2.5rem;
+ }
+ .promotion{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30%;
+    margin-right: 0%;
+    border-radius: 3rem;
+
+ }
+ .headline{
+    width: 80%;
+
+ }
+ .promotiontext{
+    width: 80%;
+ }
+ .partners{
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .bonus{
+    display: flex;
+ }
+ .partners > img{
+    width: 10%;
+ }
+ .exposition{
+    width: 100%;
+    justify-content: space-between;
+
+ }
+ .first_nft, .second_nft, .third_nft, .fourth_nft{
+    width: 100%;
+    height: 23rem;
+ }
+ .launchingsoon_bottom{
+    display: flex;
+    justify-content: center;
+    background-size: 20%;
+    background-position-x: 40rem;
+    background-position-y: 10rem;
+
+ }
+ .ethprice > img{
+    width: 20%;
+    height: 70%;
+ }
+}
